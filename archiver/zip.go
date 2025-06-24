@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 )
 
-// структура
+// структура zipArchiver
 type ZipArchiver struct{}
 
 // Реалізація інтерфейсу Compress
