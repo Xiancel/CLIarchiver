@@ -1,7 +1,9 @@
 package main
 
-import "cliarchiver/config"
+import (
+	"cliarchiver/cmd"
+)
 
 func main() {
-	config.Input()
+	cmd.Execute()
 }
